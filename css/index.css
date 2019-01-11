@@ -84,6 +84,15 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -91,13 +100,13 @@ body {
     margin: 20px 0 40px;
 }
 
-.header div {
+.nav-container div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.header nav {
+.nav-container nav {
     display: flex;
     justify-content: space-around;
     /* width: 80%; */
@@ -106,10 +115,15 @@ body {
     height: 100%;
 }
 
-.header nav a {
+.nav-container nav a {
     text-decoration: none;
     font-size: 14px;
     color: black;
+}
+
+.header img {
+    width: 100%;
+    align-self: center;
 }
 
 /* TOP */
